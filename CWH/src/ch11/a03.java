@@ -1,6 +1,6 @@
 package ch11;
 abstract class monkey{
-    public abstract void jump();
+    abstract void jump();
     abstract void bite();
 }
 interface BasicHuman{
