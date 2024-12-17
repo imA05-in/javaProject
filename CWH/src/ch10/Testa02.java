@@ -18,6 +18,7 @@ class base{
 }
 class sub extends base{
     public void print(){
+//        super(setSide(4));
         System.out.println(super.getSide());
         System.out.println(super.getSide2());
     }

@@ -1,15 +1,15 @@
 package ch10;
 import java.util.Scanner;
 class cirArea{
-    private int radius;
+     int radius;
     Scanner sc = new Scanner(System.in);
     circle cir = new circle();
     public cirArea(){
         System.out.print("enter circle radius: ");
         radius = sc.nextInt();
     }
-    public int area(){
-        int area = 2*pi*radius;
+    public float area(){
+        float area = 2*(22f/7)*radius;
         return area;
     }
 }
