@@ -18,6 +18,12 @@ class ThreadGoodMorning extends Thread {
         System.out.println("good morning");
         i++;
     }
+        try{
+            Thread.sleep(200);
+        }
+        catch (Exception e){
+            System.out.println("intereputed due to "+e);
+        }
     }
 }
 class ThreadWelcome extends Thread{
