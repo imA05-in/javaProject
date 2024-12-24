@@ -8,7 +8,7 @@ public class Z04 {
         int a = 5;
         int b = 6;
         return b;
-        int c = 6;
+//        int c = 6;
         
     }
 }
