@@ -1,6 +1,6 @@
 package ch14;
 
-public class A01 {
+public class Z01 {
     public static void main(String[] args) {
          class Myexcption extends Exception{
              @Override
